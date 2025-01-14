@@ -1,9 +1,7 @@
 # BMI Calculator
 
-age = 26
 weight = float(input("Weight: "))
 height = float(input("Height: "))
-overweight = False
 
 bmi = weight / (height * height)
 if bmi < 18.5:
